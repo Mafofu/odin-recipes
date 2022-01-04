@@ -1,9 +1,11 @@
 .header {
-color:#111 
-font-family: Helvetica, sans-serif;
-font-size: 32px;
+color:#111;
+font-size: large;
 letter-spacing: -1px; 
-text-align: center; 
+text-align: center;
+margin-top: 15px;
+font-size:xx-large;
+
 }
 
 .styled {
@@ -15,13 +17,17 @@ text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
+    background-color: blue;
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 30%,
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 620px;
+    margin-right: 350px;
 }
 
 .styled:hover {
@@ -33,11 +39,55 @@ text-align: center;
     inset 2px 2px 3px rgba(0, 0, 0, .6);    
 }
 
-.h3 {
+.subheader {
 display:block;    
 color:#111;
 font-family: Helvetica, sans-serif;
-font-size: 32px;
+font-size: 16px;
 letter-spacing: -1px;
-text-align: center;    
+text-align: center;
+margin-left: 260px;
+margin-right: 250px; 
+}
+
+.subsubheader {
+display:block;
+color:#111;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+letter-spacing: -1px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;    
+}
+
+
+li {
+text-align:center;
+color:#111;
+font-family: Helvetica, sans-serif;
+font-size: 12px; 
+letter-spacing: -1px; 
+margin-left: auto;
+margin-right: auto;    
+}
+
+ul {
+text-align:center;
+margin: 0;
+padding: 0;    
+}
+
+ol {
+text-align: center;
+margin: 0;
+padding: 0;     
+}
+
+head {
+background-image: url(images/Hintergrund.jpeg)    
+}
+
+body {
+background-image: url(images/Hintergrund.jpeg)    
 }
