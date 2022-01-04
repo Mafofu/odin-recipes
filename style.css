@@ -13,11 +13,11 @@ font-size:xx-large;
     line-height: 2.5;
     padding: 0 20px;
     font-size: 1rem;
-    text-align:justify;
+    text-align:center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: blue;
+    background-color: gray;
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 30%,
@@ -26,8 +26,8 @@ font-size:xx-large;
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 620px;
-    margin-right: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .styled:hover {
@@ -66,7 +66,7 @@ li {
 text-align:center;
 color:#111;
 font-family: Helvetica, sans-serif;
-font-size: 12px; 
+font-size: 13px; 
 letter-spacing: -1px; 
 margin-left: auto;
 margin-right: auto;    
