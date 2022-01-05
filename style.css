@@ -84,10 +84,13 @@ margin: 0;
 padding: 0;     
 }
 
-head {
-background-image: url(images/Hintergrund.jpeg)    
-}
 
 body {
-background-image: url(images/Hintergrund.jpeg)    
+background-image: url(images/Hintergrund.jpeg);
+background-repeat: repeat;
+background-position: center;    
+}
+
+.button-central {
+text-align:center;    
 }
